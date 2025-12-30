@@ -26,7 +26,7 @@ export default function ChipsInput() {
     e.preventDefault();
     const value = inputRef.current?.value?.trim();
     if (!value) return;
-
+    console.log(e.target.value);
     const updatedList = [...list, value];
     //const removeDuplicate = [...new Set(updatedList)];
     const removeDuplicate = updatedList.filter(
