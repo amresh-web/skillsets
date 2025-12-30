@@ -23,6 +23,7 @@ export default function ChipsInput() {
   };
 
   const handleSubmit = (e) => {
+    e.preventDefault();
     const value = inputRef.current?.value?.trim();
     if (!value) return;
 
