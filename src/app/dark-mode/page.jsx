@@ -14,7 +14,7 @@ export default function DarkMode() {
       >
         <div className="w-2/5 mx-auto py-20">
           <h2 className="text-4xl font-bold text-blue-900 text-center pt-8 pb-12">
-            Dark/Light Mode Toggle
+            Dark/Light Toggle Mode
           </h2>
 
           <div className="w-full text-center">
